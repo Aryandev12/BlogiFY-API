@@ -1,4 +1,3 @@
-Certainly! Below is a README template for your GitHub repository for the Blogify API:
 Blogify API
 
 Blogify API is a powerful tool for building and managing your blog website. It provides user-friendly endpoints for seamless user and post management, making it easy to create, edit, and organize your content. This repository contains the source code for the Blogify API along with documentation to help you get started.
@@ -12,6 +11,8 @@ Features
 Documentation
 
 Explore the comprehensive documentation for the Blogify API on Postman. It provides detailed information about each endpoint and how to use them effectively.
+[Blogify Documentation](https://documenter.getpostman.com/view/27656927/2sA2xe3tnQ)
+
 Getting Started
 
 To get started with the Blogify API, follow these steps:
