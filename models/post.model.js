@@ -50,26 +50,7 @@ const postSchema = new mongoose.Schema({
         "Philosophy",
         "Psychology",
         "Sociology",
-        "Adult",
-        "NSFW",
-        "BDSM",
-        "Fetish",
-        "Swingers",
-        "Group Sex",
-        "Anal",
-        "Blowjob",
-        "Bukkake",
-        "Cumshot",
-        "Double Penetration",
-        "Gangbang",
-        "Hentai",
-        "Lesbian",
-        "Masturbation",
-        "Orgy",
-        "Sex Toys",
-        "Threesome",
-        "Transgender",
-        "Voyeurism"
+      
     ],message:"Value is not supported"},
     content: { type: String, required: true }, // Content/body of the post
     author: { type: mongoose.Schema.Types.ObjectId, ref: User, required: true }, // Reference to the User who authored the post
