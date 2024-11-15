@@ -14,7 +14,7 @@ app.use(upload())
 app.use('/uploads',express.static(__dirname+'/uploads'))
 
 
-app.use('/api/users',userRoutes) //phle ye dono chalenge agr nhi milega inme phir error vale run honge.
+app.use('/api/users',userRoutes) 
 app.use('/api/posts',postRoutes)
 app.use(notFound)
 app.use(errorHandle)
