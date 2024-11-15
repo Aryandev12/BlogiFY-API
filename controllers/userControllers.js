@@ -119,10 +119,6 @@ const changeAvatar =async (req,res,next)=>{
             return next(new HttpError("Please choose an image.",422))
           }
         
-          //fetch the current logged in User .
-          //check if it has already an existing avatar.
-          //if yes => delete the existing avatar and upload a new one .
-        //Finding User from a database.
         const user = await User.findById(req.user.id)
         // delete old avatar if exists.
         if(user.avatar){
